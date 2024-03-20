@@ -1,0 +1,28 @@
+header  {
+    width: 60%;
+    height: 60%;
+    border: 3px solid palevioletred;
+}
+nav {
+    width: 60%;
+    height: 600%;
+    border: 3px solid palevioletred;
+}
+main    {
+    width: 60%;
+    height: 60%;
+    border: 3px solid palevioletred;
+}
+footer {
+width: 60%;
+height: 60%;
+border: 3px solid palevioletred;
+}
+
+#container  {
+    width: 60%;
+height: 60%;
+background-color: bisque;
+border: 3px solid palevioletred;
+font-size: 20pt;
+}
