@@ -7,19 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-        <form>
-        <h1>Fórmulario</h1>
-    <fieldset>
-        <legend>Dados pessoais</legend>
-        <label>Nome:<input type="text" name="nome"</label><br />
-        <label for="Data de nascimento">Data de nascimento:</label>
-        <input type="date" id="Data de nascimento" name="Data de nascimento">
-        <label>Endereço:<input type="text" name="Endereço"></label><br />
-        <label>Bairro:<input type="text" name="Bairro"></label>
-        <label>Cidade:<input type="text" name="Cidade"</label>
-        <label>Cep:<input type="text" name=Cep></label>
-        <label for="slcEstado">Estado</label>
-        <select id="slcEstado" name="slcEstado"multiplo>
+    <form>
+            <h1>Fórmulario</h1>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>Nome:<input type="text" name="nome"</label><br />
+            <label for="Data de nascimento">Data de nascimento:</label>
+            <input type="date" id="Data de nascimento" name="Data de nascimento">
+            <label>Endereço:<input type="text" name="Endereço"></label><br />
+            <label>Bairro:<input type="text" name="Bairro"></label>
+            <label>Cidade:<input type="text" name="Cidade"</label>
+            <label>Cep:<input type="text" name=Cep></label>
+            <label for="slcEstado">Estado</label>
+            <select id="slcEstado" name="slcEstado"multiplo>
             <option value="<php echo $row_usu['id']; ?>"<?php echo $row_usu['uf']; ?></option>
                 <option value=""></option>
                 <option value="AC">AC</option>
@@ -50,30 +50,26 @@
                 <option value="SE">SE</option>
                 <option value="TO">TO</option>
         </select>
-    </fieldset>
+        </fieldset>
         <fieldset>
-        <legend>Area de interesse</legend><br>
-        <input type="checkbox" id="iptInteresse1" name="iptInteresse1" value="Computação">
-        <label for="iptInteresse1">Computação</label>
-
-        <input type="checkbox" id="iptInteresse2" name="iptInteresse2" value="Quimica">
-        <label for="iptInteresse2">Quimica</label>
-
-        <input type="checkbox" id="iptInteresse3" name="iptInteresse3" value="Meio ambiente">
-        <label for="iptInteresse3">Meio ambiente</label>
-
-        <input type="checkbox" id="iptInteresse4" name="iptInteresse4" value="Engenharia">
-        <label for="iptInteresse4">Engenharia</label>
-
-        <input type="checkbox" id="iptInteresse5" name="iptInteresse5" value="Matematica">
-        <label for="iptInteresse5">Matematica</label><br><br>
-
-        <button type="button">Enviar</button>
-        <button type="button">Limpar</button>
-        
-
-
-
+            <legend>Area de interesse</legend><br>
+            <input type="checkbox" id="iptInteresse1" name="iptInteresse1" value="Computação">
+            <label for="iptInteresse1">Computação</label>
+    
+            <input type="checkbox" id="iptInteresse2" name="iptInteresse2" value="Quimica">
+            <label for="iptInteresse2">Quimica</label>
+    
+            <input type="checkbox" id="iptInteresse3" name="iptInteresse3" value="Meio ambiente">
+            <label for="iptInteresse3">Meio ambiente</label>
+    
+            <input type="checkbox" id="iptInteresse4" name="iptInteresse4" value="Engenharia">
+            <label for="iptInteresse4">Engenharia</label>
+    
+            <input type="checkbox" id="iptInteresse5" name="iptInteresse5" value="Matematica">
+            <label for="iptInteresse5">Matematica</label><br><br>
+    
+            <button type="button">Enviar</button>
+            <button type="button">Limpar</button>
         </fieldset>
         
     </form>
